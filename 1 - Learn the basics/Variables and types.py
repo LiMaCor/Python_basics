@@ -29,3 +29,10 @@ print(helloworld)
 # Assignments can be done on more than one variable on the same line
 a, b = 3, 4
 print(a, b)
+
+# Mixing operators between strings and numbers are not supported
+one = 1
+two = 2
+hello = "hello"
+# Try this uncommented, then comment it again
+# print(one + two + hello)
